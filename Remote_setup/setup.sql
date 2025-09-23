@@ -41,7 +41,7 @@ cd Remote_setup
 brew install websocat
 uv init -- python 3.10 #(pinning the version isn't required but recommended)
 source .venv/bin/activate
-uv pip install git+https://github.com/snowflakedb/snowflake-cli@remote_dev_prpr snowflake snowflake-snowpark-python
+uv add git+https://github.com/snowflakedb/snowflake-cli@remote_dev_prpr snowflake snowflake-snowpark-python
 snow connection list #(Checks to )
 
 snow remote start \

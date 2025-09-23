@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "snowflake>=1.7.0",
+    "snowflake-cli",
+    "snowflake-snowpark-python>=1.39.0",
+]
+
+[tool.uv.sources]
+snowflake-cli = { git = "https://github.com/snowflakedb/snowflake-cli", rev = "remote_dev_prpr" }
