@@ -39,10 +39,10 @@ ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE' );
 If you do not have uv run 'brew install uv' uv is not required but recommended
 cd Remote_setup
 brew install websocat
-uv init -- python 3.10 #(pinning the version isn't required but recommended)
+uv sync
 source .venv/bin/activate
-uv add git+https://github.com/snowflakedb/snowflake-cli@remote_dev_prpr snowflake snowflake-snowpark-python
-snow connection list #(Checks to )
+snow connection list
+# You can edit your connection cursor ~/.snowflake/config.toml (replace cursor with code for vscode)
 
 snow remote start \
   my_remote_dev \
@@ -52,6 +52,7 @@ snow remote start \
   --ssh
 
 MAKE SURE TO SUSPEND THE SERVICE WHEN DONE THERE IS NO AUTO SUSPEND
+snow remote delete SNOW_REMOTE_CHASE_MY_REMOTE_DEV
 alter service demo.public.SNOW_REMOTE_CHASE_MY_REMOTE_DEV suspend;
 
 Some other useful commands
