@@ -6,7 +6,7 @@ Whether you're new to Snowflake's machine learning capabilities or looking to de
 
 ---
 
-## 📚 What You’ll Learn
+## What You’ll Learn
 
 This repository covers the following core areas:
 
@@ -30,3 +30,6 @@ This repository covers the following core areas:
 
 ### 5. Entity Resolution
 - Leverage batch cortex search to link records across large datasets.
+
+### 6. Remote Setup
+- Leverage SSH to execute on Snowflake compute from the IDE of your choice.
