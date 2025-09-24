@@ -19,7 +19,7 @@ ALLOWED_NETWORK_RULES = (pypi_network_rule)
 ENABLED = true;
 
 GRANT USAGE ON INTEGRATION pypi_access_integration TO ROLE sysadmin; -- replace sysadmin with your data scientists role
-
+GRANT USAGE ON INTEGRATION git_int TO ROLE sysadmin; 
 
 -- GPU Compute Pool
 CREATE COMPUTE POOL notebook_GPU_S
