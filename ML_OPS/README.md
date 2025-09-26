@@ -21,11 +21,4 @@ Next, deploy the complete pipeline:
 Finally, deploy as a real-time inference endpoint:
 - Enable millisecond response times
 - Test with provided Streamlit code
-- Achieve sub-100ms response times with optimized deployment methods
-- Experience performance benefits even within SaaS applications
-
-## Key Benefits
-- **End-to-End Processing**: Raw data input to prediction output
-- **Automated Preprocessing**: No manual data cleaning required
-- **High Performance**: Millisecond response times achievable
-- **Scalable Architecture**: From batch to real-time deployment
+- Achieve sub-100ms response times with optimized deployment method
