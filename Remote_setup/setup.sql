@@ -1,5 +1,4 @@
 -- For this demo we have a database called adminstration and schema public to store account level rules
-
 use role accountadmin;
 
 -- Need Bind Service Endpoint to sysadmin so sysadmin can access service endpoints
