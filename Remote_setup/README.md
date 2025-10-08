@@ -71,7 +71,7 @@ Get a full VS Code environment running in your browser - no local setup required
    snow remote start \
      my_remote_dev \
      --compute-pool <Your_Compute_Pool> \
-     --eai-name ALLOW_ALL_INTEGRATION \
+     --eai-name pypi_access_integration \
      --stage <DB.SCHEMA.YOUR_STAGE_NAME> \
      --ssh
    ```
