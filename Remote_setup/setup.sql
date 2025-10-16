@@ -16,9 +16,9 @@ ENABLED = true;
 
 grant usage on INTEGRATION pypi_access_integration to role sysadmin;
 
+-- create the dedicated compute pool for the remote setup (OPTIONAL: You can use the default or an existing pool)
 use role accountadmin;
 
--- create the dedicated compute pool for the remote setup
 CREATE COMPUTE POOL remote_pool
   MIN_NODES = 1
   MAX_NODES = 1
